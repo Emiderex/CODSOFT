@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emmanuel Ajibola - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7098c21fe2.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+        <!-- head -->
+        
+            <div class="header" id="home">
+                <nav class="hidden">
+                    <h2 class="logo">E<span id="cont2">A</span>.</h2>
+                    <ul id="sidemenu" >
+                        <li><a href="#home" target="_parent">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                        <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+        
+                <div class="content">
+                    <h4>Welcome to my space</h4>
+                    <h1 >Emmanuel <span id="cont2">Ajibola</span></h1>
+                    <h3 >Graphic designer / Web Developer.</h3>
+                    <div class="newsletter">
+                        <form action="">
+                            <input type="text" name="text" id="mail" placeholder="Send me a message...">
+                            <input type="submit" name="submit" value="Hire me">
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- section -->
+            
+            <div class="main">
+                <div class="about" id="about">
+                    <div class="col1 hidden">
+                        <img src="./user1.jpg" alt="">
+                    </div>
+                    <div class="col2 hidden">
+                        <h1 class="title">About Me</h1>
+                        <p>
+                            I am a graduate of Computer science, My stack as a Web developer is HTML, CSS, 
+                            Boostratp 5 and Javascript, React (in progress). My ability to make changes through
+                            thorugh tech has been one of my goals alongside making access to products esy for people in
+                            a community.<br/><br/>
+
+                            I am actively learning and building to be update on trends in the tech world.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- skills -->
+
+                <div class="skills hidden" id="skills">
+                    <h1 class="title">Skills</h1>
+                    <div class="list">
+                        <div class="list-box hidden">
+                            <i class="fa-solid fa-bezier-curve"></i>
+                            <h2>Graphic Design</h2>
+                            <p>Adobe Illustrator</p>
+                            <p>Adobe Photoshop</p>
+                            <p>Adobe InDesign</p>
+                            <p>Adobe XD</p>
+                            <p>Figma</p>
+
+                        </div>
+                        <div class="list-box hidden">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h2>Web Design</h2>
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>JAVASCRIPT</p>
+                            <p>Bootstrap 5</p>
+                            <p>Wordpress</p>
+                            <p>React (in Progress)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- projects -->
+
+                <div class="projects hidden" id="project">
+                    <h1 class="title">Projects</h1>
+                    <div class="work-box">
+                        <div class="work">
+                                <div class="box hidden">
+                                   <a href="https://wordswithmeaning.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <img src="./project_(1).png" alt="" srcset="">
+                                   </a>
+                                        <h3>Wordswithmeaning</h3>
+                                        <p>An app that help people around the world.</p>
+                                        <div class="repo">
+                                            <span>Language: HTML | CSS | JS</span><br>
+                                            <span>Stars: 0</span><br>
+                                            <span>Forks: 0</span>
+                                        </div>
+                                </div>  
+                        </div>
+                        <div class="work">
+                                <div class="box hidden">
+                                    <a href="https://web-validation-form.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                        <img src="./project_(2).png" alt="" srcset="">
+                                    </a>
+                                        <h3>Form Validation</h3>
+                                        <p>An app that help people around the world.</p>
+                                        <div class="repo">
+                                            <span>Language: HTML | CSS | JS</span><br>
+                                            <span>Stars: 0</span><br>
+                                            <span>Forks: 0</span>
+                                        </div>
+                                </div>  
+                        </div>
+                        <div class="work">
+                                <div class="box hidden">
+                                   <a href="https://helpity.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <img src="./project_(3).png" alt="" srcset="">
+                                   </a>
+                                        <h3>Helpity</h3>
+                                        <p>An app that help people around the world.</p>
+                                        <div class="repo">
+                                            <span>Language: HTML | CSS</span><br>
+                                            <span>Stars: 0</span><br>
+                                            <span>Forks: 0</span>
+                                        </div>
+                                </div>  
+                        </div>
+                    </div>
+                    <a href="https://github.com/Emiderex" class="bttn hidden">View my Repositories ></a>   
+                    <a href="http://aedesigns.crevado.com" class="bttn bttn2 hidden" target="_blank" rel="noopener noreferrer">View my Design Gallery ></a>
+                </div>
+
+                <!-- contact -->
+
+                <div class="contact hidden" id="contact">
+                    <div class="contact-box">
+                        <div class="contact-left hidden">
+                            <h1 class="title">Contact</h1>
+                            <p>ajibolae123@gmail.com</p>
+                            <p>+234 814 515 1085</p>
+                            <a href="./Emmanuel's_Academic_CV.pdf" download >Download CV</a>
+                        </div>
+                        <div class="contact-right hidden">
+                            <form>
+                                <input type="text" name="Name" placeholder="Your Name" autocomplete="username" required>
+                                <input type="email" name="Email" placeholder="Your Email" autocomplete="email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                                <button type="submit" class="btn bttn2">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright</p>
+            </div>
+
+            <script>
+                
+                var sidemenu = document.getElementById("sidemenu");
+
+                function openmenu(){
+                    sidemenu.style.left = "0";
+                }
+
+                function closemenu(){
+                    sidemenu.style.left = "-50%";
+                }
+
+                const observer = new IntersectionObserver((entires) =>{
+                entires.forEach((entry) => {
+                    console.log(entry)
+                    if(entry.isIntersecting){
+                        entry.target.classList.add('show');
+                    }else{
+                        entry.target.classList.remove('show');
+                    }
+                    })
+                })
+
+                const hiddenElements = document.querySelectorAll('.hidden');
+                hiddenElements.forEach((el) => observer.observe(el));
+            </script>
+</body>
+</html>
