@@ -362,6 +362,11 @@ nav .fas{
     transform: translateX(0);
 }
 
+@media only screen and (max-width: 1300px) {
+    .content {
+        margin-top: 23%;   
+    }
+}
 @media only screen and (max-width: 1000px) {    
     .col1 img {
         width: 100%; 
@@ -428,6 +433,7 @@ nav .fas{
         cursor: pointer;
         color: #3498db;
    }
+   
 }
 
 @media only screen and (max-width: 360px){
